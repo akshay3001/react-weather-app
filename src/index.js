@@ -38,9 +38,6 @@ class App extends React.Component {
                     <section style={{minHeight:'100vh', margin: '0 auto -60px'}}>
                         <SeasonDisplay lat={this.state.lat} />
                     </section>
-                    <footer style={{padding: '20px', backgroundColor: 'yellow'}}>
-                        Footer &copy; { this.year.getFullYear() }
-                    </footer>
                 </div>
             );
         }
