@@ -1,0 +1,4 @@
+/* Keep the Semantic UI loader ring static. A spinning ring repaints on every frame. */
+.ui.loader::after {
+  animation: none;
+}
